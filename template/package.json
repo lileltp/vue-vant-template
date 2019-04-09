@@ -13,6 +13,7 @@
   "dependencies": {
     "amfe-flexible": "^2.2.1",
     "vant": "^1.6.12",
+    "axios": "^0.18.0",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1",
     "vuejs-storage": "^3.0.1",

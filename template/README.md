@@ -1,4 +1,6 @@
-# mini-client
+# {{ name }}
+
+## rhea vue vant template 
 
 ## Project setup
 ```
@@ -27,3 +29,5 @@ yarn run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
