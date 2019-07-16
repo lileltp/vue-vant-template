@@ -10,16 +10,22 @@ export default new Vuex.Store({
 
   },
   mutations: {
-
+    setToken (state, payload) {
+      state.token = payload.token
+    },
+    clearToken (state) {
+      state.token = null
+      state.info = null
+    }
   },
   actions: {
 
   },
   plugins: [
     vuejsStorage({
-      keys: [''],
-      namespace: 'tmov-client',
-      driver: vuejsStorage.drivers.sessionStorage
+      keys: ['token'],
+      namespace: '{{ name }}',
+      driver: vuejsStorage.drivers.localStorage
     })
   ]
 })
